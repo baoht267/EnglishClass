@@ -1,0 +1,168 @@
+[{
+  "_id": {
+    "$oid": "698c39223139dfe7e3e91d9c"
+  },
+  "resultId": 37,
+  "userId": {
+    "$oid": "698b7c5c474f550fc2a45e34"
+  },
+  "examModel": "Practice",
+  "examId": {
+    "$oid": "698c371534480773935394be"
+  },
+  "examCode": 1001,
+  "examTitle": "Grammar Practice 1",
+  "examCategoryId": {
+    "$oid": "69836099d9ad545923a33ae7"
+  },
+  "examCategoryName": "Grammar",
+  "examTimeLimit": 20,
+  "examPassMark": 50,
+  "score": 15,
+  "total": 15,
+  "timeSpent": 150,
+  "submittedAt": {
+    "$date": "2026-02-11T08:09:06.889Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698c3be03139dfe7e3e9205a"
+  },
+  "resultId": 38,
+  "userId": {
+    "$oid": "698b7c5c474f550fc2a45e34"
+  },
+  "examModel": "Practice",
+  "examId": {
+    "$oid": "698c371534480773935394c0"
+  },
+  "examCode": 1003,
+  "examTitle": "Grammar Practice 3",
+  "examCategoryId": {
+    "$oid": "69836099d9ad545923a33ae7"
+  },
+  "examCategoryName": "Grammar",
+  "examTimeLimit": 20,
+  "examPassMark": 50,
+  "score": 0,
+  "total": 10,
+  "timeSpent": 9,
+  "submittedAt": {
+    "$date": "2026-02-11T08:20:48.437Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698c4daf5e829ee8ac36603e"
+  },
+  "resultId": 39,
+  "userId": {
+    "$oid": "698b7c5c474f550fc2a45e34"
+  },
+  "examModel": "Practice",
+  "examId": {
+    "$oid": "698c45133139dfe7e3e92375"
+  },
+  "examCode": 9,
+  "examTitle": "Listening Test",
+  "examCategoryId": {
+    "$oid": "698874b34bcdfd109d4e8ec9"
+  },
+  "examCategoryName": "Listening",
+  "examTimeLimit": 10,
+  "examPassMark": 60,
+  "score": 4,
+  "total": 5,
+  "timeSpent": 81,
+  "submittedAt": {
+    "$date": "2026-02-11T09:36:47.491Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b9150a5156ed9d1729afba"
+  },
+  "resultId": 40,
+  "userId": {
+    "$oid": "698b7c5c474f550fc2a45e34"
+  },
+  "examModel": "Practice",
+  "examId": {
+    "$oid": "698c3e933139dfe7e3e92171"
+  },
+  "examCode": 8,
+  "examTitle": "Practice Prepositions",
+  "examCategoryId": {
+    "$oid": "69836099d9ad545923a33ae7"
+  },
+  "examCategoryName": "Grammar",
+  "examTimeLimit": 20,
+  "examPassMark": 50,
+  "score": 1,
+  "total": 20,
+  "timeSpent": 17,
+  "submittedAt": {
+    "$date": "2026-03-17T08:47:06.483Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e59daa7ccc201b9291f7d2"
+  },
+  "resultId": 41,
+  "userId": {
+    "$oid": "698b7c5c474f550fc2a45e34"
+  },
+  "examModel": "Practice",
+  "examId": {
+    "$oid": "698c45133139dfe7e3e92375"
+  },
+  "examCode": 9,
+  "examTitle": "Listening Test",
+  "examCategoryId": {
+    "$oid": "698874b34bcdfd109d4e8ec9"
+  },
+  "examCategoryName": "Listening",
+  "examTimeLimit": 10,
+  "examPassMark": 60,
+  "score": 1,
+  "total": 5,
+  "timeSpent": 21,
+  "submittedAt": {
+    "$date": "2026-04-20T03:29:46.956Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e59de67ccc201b9291f863"
+  },
+  "resultId": 42,
+  "userId": {
+    "$oid": "698b7c5c474f550fc2a45e34"
+  },
+  "examModel": "Practice",
+  "examId": {
+    "$oid": "698c3e933139dfe7e3e92171"
+  },
+  "examCode": 8,
+  "examTitle": "Practice Prepositions",
+  "examCategoryId": {
+    "$oid": "69836099d9ad545923a33ae7"
+  },
+  "examCategoryName": "Grammar",
+  "examTimeLimit": 20,
+  "examPassMark": 50,
+  "score": 0,
+  "total": 20,
+  "timeSpent": 4,
+  "submittedAt": {
+    "$date": "2026-04-20T03:30:46.647Z"
+  },
+  "__v": 0
+}]

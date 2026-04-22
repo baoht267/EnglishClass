@@ -1,0 +1,407 @@
+.readingExamPage {
+  min-height: 100vh;
+  background:
+    radial-gradient(700px 360px at 12% 12%, rgba(37, 99, 235, 0.12), transparent 65%),
+    radial-gradient(520px 280px at 88% 18%, rgba(14, 165, 233, 0.12), transparent 55%),
+    radial-gradient(rgba(148, 163, 184, 0.35) 1px, transparent 1px);
+  background-size: auto, auto, 22px 22px;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.readingExamMain {
+  padding: 28px 0 80px;
+}
+
+.readingExamLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 22px;
+  align-items: start;
+}
+
+.readingExamHero {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.readingExamBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #e0e7ff;
+  color: #4338ca;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.readingExamHeroRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.readingExamHero h1 {
+  margin: 0;
+  font-size: clamp(22px, 2.6vw, 30px);
+  font-weight: 800;
+}
+
+.readingExamFocus {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.readingExamContent {
+  display: grid;
+  gap: 18px;
+}
+
+.readingExamPassageCard {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.08);
+  overflow: hidden;
+}
+
+.readingExamPassageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid #eef2f7;
+  background: #f8fafc;
+}
+
+.readingExamPassageTitle {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.readingExamFontControls {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.readingExamFontControls button {
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  color: #334155;
+  border-radius: 10px;
+  padding: 4px 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.readingExamFontControls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.readingExamPassageBody {
+  padding: 20px 22px 24px;
+  line-height: 1.7;
+  color: #1f2937;
+  white-space: pre-line;
+  max-height: 440px;
+  overflow-y: auto;
+}
+
+.readingExamQuestionCard {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 20px 22px;
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.08);
+  display: grid;
+  gap: 14px;
+}
+
+.readingExamQuestionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.readingExamQuestionBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #eef2ff;
+  color: #4338ca;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 12px;
+}
+
+.readingExamDots {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.readingExamDots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #e2e8f0;
+}
+
+.readingExamDots span.is-active {
+  background: #2563eb;
+}
+
+.readingExamQuestionCard h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.readingExamOptions {
+  display: grid;
+  gap: 12px;
+}
+
+.readingExamOption {
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 14px 16px;
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  gap: 12px;
+  align-items: center;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.readingExamOption input {
+  display: none;
+}
+
+.readingExamOptionKey {
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  border: 1px solid #cbd5f5;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  color: #475569;
+}
+
+.readingExamOption.is-selected {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.16);
+  background: #eff6ff;
+}
+
+.readingExamOption.is-selected .readingExamOptionKey {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #ffffff;
+}
+
+.readingExamActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding-top: 6px;
+}
+
+.readingExamGhostBtn,
+.readingExamPrimaryBtn {
+  border-radius: 12px;
+  padding: 10px 18px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.readingExamGhostBtn {
+  background: #ffffff;
+  border-color: #e2e8f0;
+  color: #334155;
+}
+
+.readingExamPrimaryBtn {
+  background: #2563eb;
+  color: #ffffff;
+  box-shadow: 0 12px 22px rgba(37, 99, 235, 0.2);
+}
+
+.readingExamSidebar {
+  display: grid;
+  gap: 16px;
+}
+
+.readingExamSideCard {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.06);
+  display: grid;
+  gap: 10px;
+}
+
+.readingExamSideLabel {
+  color: #94a3b8;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.readingExamTimeCard strong {
+  font-size: 28px;
+}
+
+.readingExamTimeBar {
+  height: 6px;
+  border-radius: 999px;
+  background: #e2e8f0;
+  overflow: hidden;
+}
+
+.readingExamTimeBar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #2563eb, #4f46e5);
+}
+
+.readingExamTutorHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.readingExamTutorCard {
+  background: linear-gradient(135deg, #4f46e5 0%, #2563eb 100%);
+  color: #ffffff;
+  border: none;
+}
+
+.readingExamTutorCard h4,
+.readingExamTutorCard p {
+  margin: 0;
+  color: #ffffff;
+}
+
+.readingExamTutorCard p {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.readingExamTutorBtn {
+  border: none;
+  background: #ffffff;
+  color: #1e293b;
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.readingExamReviewCard {
+  border: 1px dashed #dbeafe;
+  background: #f8fafc;
+}
+
+.readingExamReviewBtn {
+  border: 1px dashed #cbd5f5;
+  background: #ffffff;
+  color: #334155;
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.readingExamReviewBtn.is-marked {
+  border-color: #f59e0b;
+  color: #b45309;
+  background: #fffbeb;
+}
+
+.readingExamMapGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.readingExamMapBtn {
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  color: #64748b;
+  border-radius: 12px;
+  padding: 8px 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.readingExamMapBtn.is-active {
+  border-color: #2563eb;
+  color: #2563eb;
+  background: #eff6ff;
+}
+
+.readingExamMapBtn.is-answered {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.readingExamMapBtn.is-marked {
+  border-color: #f59e0b;
+}
+
+.readingExamTipCard {
+  background: #eff6ff;
+  border-color: #dbeafe;
+}
+
+.readingExamTipCard p {
+  margin: 0;
+  font-size: 12px;
+  color: #1e3a8a;
+  line-height: 1.5;
+}
+
+@media (max-width: 1100px) {
+  .readingExamLayout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .readingExamMain {
+    padding: 24px 0 60px;
+  }
+
+  .readingExamPassageBody {
+    max-height: 320px;
+  }
+
+  .readingExamHeroRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "697dfc840ab598a51e71ec1f"
+  },
+  "userId": 2,
+  "name": "User Test",
+  "email": "user@test.com",
+  "password": "$2b$10$DiMijP.TDpV28Kc8eC6XNeEssljQZYtEIPG6IQVUKEuKQPYhjoJCi",
+  "dob": {
+    "$date": "2004-05-12T00:00:00.000Z"
+  },
+  "gender": "MALE",
+  "role": "USER",
+  "createdAt": {
+    "$date": "2026-01-31T12:58:44.907Z"
+  },
+  "__v": 0,
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "69840d3bcfdf4efa66e89c3f"
+  },
+  "userId": 10,
+  "name": "Hoàng Tân Bảo",
+  "email": "admin@gmail.com",
+  "password": "$2b$10$Age.lAByUJwoS4zNT04TAu7Du7MFSE4UnIrnC11SbwOmX3HfB4/6C",
+  "role": "ADMIN",
+  "createdAt": {
+    "$date": "2026-02-05T03:23:39.910Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69882f7d734e5298a94dada3"
+  },
+  "userId": 25,
+  "name": "Hoang Tan Bao (K18 HL)",
+  "email": "baohthe186823@fpt.edu.vn",
+  "password": "$2b$10$3eTUWhE1IT6AfCqzsWERFOaLZqpe2LHCe6CyPxtHTa6emZgfAUvwO",
+  "role": "USER",
+  "isActive": true,
+  "mustChangePassword": false,
+  "createdAt": {
+    "$date": "2026-02-08T06:38:53.222Z"
+  },
+  "__v": 0,
+  "dob": {
+    "$date": "2026-02-04T00:00:00.000Z"
+  },
+  "gender": "MALE",
+  "phone": "0981730703",
+  "googleLoginVerified": true
+},
+{
+  "_id": {
+    "$oid": "698b7c5c474f550fc2a45e34"
+  },
+  "userId": 26,
+  "name": "Hoàng Tân Bảo",
+  "email": "hoangtanbaobg@gmail.com",
+  "password": "$2b$10$JFi.IZfqp1Dn0i3WP0Q7X.JXr5XEWnSPdubbnQVkQtpLNBEK9zK3i",
+  "role": "USER",
+  "isActive": true,
+  "mustChangePassword": false,
+  "googleLoginVerified": true,
+  "createdAt": {
+    "$date": "2026-02-10T18:43:40.736Z"
+  },
+  "__v": 0,
+  "gender": "MALE"
+}]

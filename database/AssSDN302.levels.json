@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "698360b5d9ad545923a33aea"
+  },
+  "name": "Easy",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-02-04T15:07:33.398Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-04T15:07:33.398Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "698360b5d9ad545923a33aeb"
+  },
+  "name": "Medium",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-02-04T15:07:33.398Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-04T15:07:33.398Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "698360b5d9ad545923a33aec"
+  },
+  "name": "Hard",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-02-04T15:07:33.398Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-04T15:07:33.398Z"
+  }
+}]

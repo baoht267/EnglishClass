@@ -1,0 +1,29 @@
+[{
+  "_id": "users",
+  "seq": 26
+},
+{
+  "_id": "admin",
+  "seq": 0
+},
+{
+  "_id": "exams",
+  "seq": 19
+},
+{
+  "_id": "questions",
+  "seq": 203
+},
+{
+  "_id": "results",
+  "seq": 42
+},
+{
+  "_id": "answers",
+  "seq": 168
+},
+{
+  "_id": "practices",
+  "__v": 0,
+  "seq": 9
+}]

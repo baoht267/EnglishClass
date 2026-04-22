@@ -1,0 +1,383 @@
+.listeningExamPage {
+  min-height: 100vh;
+  background:
+    radial-gradient(600px 320px at 12% 12%, rgba(37, 99, 235, 0.12), transparent 65%),
+    radial-gradient(520px 280px at 88% 12%, rgba(14, 165, 233, 0.12), transparent 55%),
+    radial-gradient(rgba(148, 163, 184, 0.35) 1px, transparent 1px);
+  background-size: auto, auto, 22px 22px;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.listeningMain {
+  padding: 28px 0 80px;
+}
+
+.listeningLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 22px;
+  align-items: start;
+}
+
+.listeningHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.listeningHeader h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.listeningHeader p {
+  margin: 4px 0 0;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.listeningTrack {
+  min-width: 180px;
+  text-align: right;
+  font-size: 12px;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.listeningTrackBar {
+  height: 6px;
+  border-radius: 999px;
+  background: #e2e8f0;
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+.listeningTrackBar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #2563eb, #4f46e5);
+}
+
+.listeningTime {
+  min-width: 170px;
+  text-align: right;
+  font-size: 12px;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.listeningTime strong {
+  display: block;
+  margin-top: 4px;
+  font-size: 18px;
+  color: #0f172a;
+}
+
+.listeningTimeBar {
+  height: 6px;
+  border-radius: 999px;
+  background: #e2e8f0;
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+.listeningTimeBar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #0ea5e9, #2563eb);
+}
+
+.listeningAudioCard {
+  margin-top: 14px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 22px;
+  padding: 24px;
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
+}
+
+.listeningWave {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  height: 70px;
+  color: #2563eb;
+}
+
+.listeningWave span {
+  width: 6px;
+  border-radius: 999px;
+  background: #dbeafe;
+}
+
+.listeningPlayBtn {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: none;
+  background: #2563eb;
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 12px 22px rgba(37, 99, 235, 0.25);
+  cursor: pointer;
+}
+
+.listeningPlayBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.listeningSpeed {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.listeningSpeedBtn {
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  color: #475569;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-weight: 700;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.listeningSpeedBtn.is-active {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #ffffff;
+}
+
+.listeningQuestionCard {
+  margin-top: 16px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 22px;
+  padding: 22px;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08);
+  display: grid;
+  gap: 16px;
+}
+
+.listeningQuestionHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.listeningQuestionBadge {
+  background: #e0e7ff;
+  color: #4338ca;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+.listeningQuestionTopic {
+  color: #64748b;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.listeningQuestionCard h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.listeningOptions {
+  display: grid;
+  gap: 12px;
+}
+
+.listeningOption {
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 12px 14px;
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+  background: #ffffff;
+}
+
+.listeningOption input {
+  display: none;
+}
+
+.listeningOption span:first-of-type {
+  width: 24px;
+  height: 24px;
+  border-radius: 8px;
+  background: #f1f5f9;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  color: #475569;
+}
+
+.listeningOption.is-selected {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.18);
+}
+
+.listeningOption.is-selected span:first-of-type {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.listeningActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.listeningSkipBtn,
+.listeningSubmitBtn {
+  border-radius: 14px;
+  padding: 10px 16px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.listeningSkipBtn {
+  background: transparent;
+  color: #64748b;
+}
+
+.listeningSubmitBtn {
+  background: #2563eb;
+  color: #ffffff;
+  box-shadow: 0 12px 22px rgba(37, 99, 235, 0.25);
+}
+
+.listeningSidebar {
+  display: grid;
+  gap: 16px;
+}
+
+.listeningSideCard {
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #e2e8f0;
+  padding: 16px;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.06);
+  display: grid;
+  gap: 10px;
+}
+
+.listeningSideHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.listeningSideHeader h4 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.listeningSideHeader p {
+  margin: 4px 0 0;
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.listeningTranscriptBtn {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  padding: 8px 12px;
+  background: #f8fafc;
+  color: #64748b;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.listeningTranscriptBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.listeningTranscript {
+  background: #f1f5f9;
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 12px;
+  color: #475569;
+}
+
+.listeningTipCard {
+  background: #eff6ff;
+}
+
+.listeningTutorBtn {
+  width: 100%;
+  border-radius: 14px;
+  border: none;
+  background: #0f172a;
+  color: #ffffff;
+  padding: 12px 14px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.listeningInfoCard h4 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.listeningInfoRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #64748b;
+}
+
+.listeningInfoRow strong {
+  color: #0f172a;
+}
+
+@media (max-width: 1100px) {
+  .listeningLayout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .listeningMain {
+    padding: 24px 0 60px;
+  }
+
+  .listeningHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .listeningTrack {
+    text-align: left;
+  }
+
+  .listeningTime {
+    text-align: left;
+  }
+}

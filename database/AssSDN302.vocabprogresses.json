@@ -1,0 +1,156 @@
+[{
+  "_id": {
+    "$oid": "698b4013c21a9abac05b65f6"
+  },
+  "topic": "education",
+  "date": "2026-02-10",
+  "level": "beginner",
+  "userId": {
+    "$oid": "69882f7d734e5298a94dada3"
+  },
+  "__v": 0,
+  "correct": 0,
+  "createdAt": {
+    "$date": "2026-02-10T14:26:27.942Z"
+  },
+  "ratings": {
+    "again": 0,
+    "easy": 0,
+    "good": 0,
+    "hard": 0
+  },
+  "reviewed": 59,
+  "updatedAt": {
+    "$date": "2026-02-10T17:50:37.949Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "698b40e3c21a9abac05b65f7"
+  },
+  "userId": {
+    "$oid": "69882f7d734e5298a94dada3"
+  },
+  "level": "all",
+  "date": "2026-02-10",
+  "topic": "all",
+  "__v": 0,
+  "correct": 0,
+  "createdAt": {
+    "$date": "2026-02-10T14:29:55.298Z"
+  },
+  "ratings": {
+    "again": 0,
+    "easy": 0,
+    "good": 0,
+    "hard": 0
+  },
+  "reviewed": 52,
+  "updatedAt": {
+    "$date": "2026-02-10T14:30:20.815Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "698b8846c21a9abac05b65f8"
+  },
+  "topic": "health",
+  "date": "2026-02-10",
+  "level": "intermediate",
+  "userId": {
+    "$oid": "698b7c5c474f550fc2a45e34"
+  },
+  "__v": 0,
+  "correct": 0,
+  "createdAt": {
+    "$date": "2026-02-10T19:34:30.034Z"
+  },
+  "ratings": {
+    "again": 0,
+    "easy": 0,
+    "good": 0,
+    "hard": 0
+  },
+  "reviewed": 5,
+  "updatedAt": {
+    "$date": "2026-02-10T19:34:53.820Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "698c14adc21a9abac05b65f9"
+  },
+  "userId": {
+    "$oid": "698b7c5c474f550fc2a45e34"
+  },
+  "level": "beginner",
+  "date": "2026-02-11",
+  "topic": "environment",
+  "__v": 0,
+  "correct": 0,
+  "createdAt": {
+    "$date": "2026-02-11T05:33:33.093Z"
+  },
+  "ratings": {
+    "again": 0,
+    "easy": 0,
+    "good": 0,
+    "hard": 0
+  },
+  "reviewed": 2,
+  "updatedAt": {
+    "$date": "2026-02-11T05:33:36.756Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "698c1711c21a9abac05b65fa"
+  },
+  "userId": {
+    "$oid": "698b7c5c474f550fc2a45e34"
+  },
+  "level": "all",
+  "date": "2026-02-11",
+  "topic": "all",
+  "__v": 0,
+  "correct": 0,
+  "createdAt": {
+    "$date": "2026-02-11T05:43:45.658Z"
+  },
+  "ratings": {
+    "again": 0,
+    "easy": 0,
+    "good": 0,
+    "hard": 0
+  },
+  "reviewed": 1,
+  "updatedAt": {
+    "$date": "2026-02-11T05:43:45.658Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69e59dd9e3671051c636bbfd"
+  },
+  "topic": "education",
+  "date": "2026-04-20",
+  "level": "beginner",
+  "userId": {
+    "$oid": "698b7c5c474f550fc2a45e34"
+  },
+  "__v": 0,
+  "correct": 0,
+  "createdAt": {
+    "$date": "2026-04-20T03:30:33.741Z"
+  },
+  "ratings": {
+    "again": 0,
+    "easy": 0,
+    "good": 0,
+    "hard": 0
+  },
+  "reviewed": 1,
+  "updatedAt": {
+    "$date": "2026-04-20T03:30:33.741Z"
+  }
+}]

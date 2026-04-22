@@ -1,0 +1,437 @@
+.adminMessagesPage {
+  background: #f4f7fb;
+  min-height: 100vh;
+}
+
+.adminMessagesShell {
+  min-height: 100vh;
+}
+
+.adminMessagesMain {
+  padding: 28px 28px 40px;
+  flex: 1;
+}
+
+.adminMessagesTopbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.adminMessagesBreadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.adminMessagesBreadcrumbs strong {
+  color: #0f172a;
+}
+
+.adminMessagesTopActions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.adminMessagesSearch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 999px;
+  padding: 8px 14px;
+  color: #64748b;
+}
+
+.adminMessagesSearch input {
+  border: none;
+  outline: none;
+  background: transparent;
+  min-width: 240px;
+  color: #0f172a;
+}
+
+.adminMessagesBell {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #e2e8f0;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  color: #2563eb;
+}
+
+.adminMessagesLayout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 20px;
+}
+
+.adminMessagesListCard {
+  background: #fff;
+  border-radius: 18px;
+  border: 1px solid #e6edf5;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 620px;
+}
+
+.adminMessagesListCard h3 {
+  margin: 0;
+}
+
+.adminMessagesListCard p {
+  margin: 0;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.adminMessagesItems {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.adminMessagesItem {
+  display: grid;
+  grid-template-columns: 42px 1fr auto;
+  gap: 10px;
+  align-items: center;
+  background: #f8fafc;
+  border-radius: 14px;
+  padding: 10px;
+  border: 1px solid transparent;
+  text-align: left;
+}
+
+.adminMessagesItem.is-active {
+  background: #eef2ff;
+  border-color: #c7d2fe;
+}
+
+.adminMessagesAvatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background: #dbeafe;
+  color: #2563eb;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+}
+
+.adminMessagesAvatar.is-large {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+}
+
+.adminMessagesName {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.adminMessagesSnippet {
+  font-size: 12px;
+  color: #64748b;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 150px;
+}
+
+.adminMessagesMeta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  font-size: 11px;
+  color: #94a3b8;
+}
+
+.adminMessagesCount {
+  background: #2563eb;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+}
+
+.adminMessagesChatCard {
+  background: #fff;
+  border-radius: 18px;
+  border: 1px solid #e6edf5;
+  display: flex;
+  flex-direction: column;
+  min-height: 620px;
+}
+
+.adminMessagesChatHeader {
+  padding: 16px 18px;
+  border-bottom: 1px solid #edf2f7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.adminMessagesChatUser {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.adminMessagesStatus {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.adminMessagesChatActions {
+  display: flex;
+  gap: 8px;
+}
+
+.adminMessagesIcon {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  display: grid;
+  place-items: center;
+  color: #2563eb;
+}
+
+.adminMessagesChatBody {
+  flex: 1;
+  padding: 20px;
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+}
+
+.adminMessagesBubble {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.adminMessagesBubble.is-incoming {
+  align-self: flex-start;
+}
+
+.adminMessagesBubble.is-outgoing {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.adminMessagesBubbleText {
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  color: #0f172a;
+  line-height: 1.5;
+}
+
+.adminMessagesBubble.is-outgoing .adminMessagesBubbleText {
+  background: #2563eb;
+  border-color: #1d4ed8;
+  color: #fff;
+}
+
+.adminMessagesBubbleTime {
+  font-size: 11px;
+  color: #94a3b8;
+}
+
+.adminMessagesComposer {
+  padding: 16px 18px;
+  border-top: 1px solid #edf2f7;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.adminMessagesComposer input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: #f1f5f9;
+  border-radius: 999px;
+  padding: 10px 14px;
+  color: #0f172a;
+}
+
+.adminMessagesComposer input::placeholder {
+  color: #94a3b8;
+}
+
+.adminMessagesSend {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 12px 20px rgba(37, 99, 235, 0.25);
+}
+
+.adminMessagesEmpty {
+  padding: 14px;
+  color: #64748b;
+  font-size: 14px;
+  background: #f8fafc;
+  border-radius: 12px;
+  text-align: center;
+}
+
+@media (max-width: 1100px) {
+  .adminMessagesLayout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .adminMessagesTopbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .adminMessagesSearch input {
+    min-width: 160px;
+  }
+
+  .adminMessagesComposer {
+    flex-wrap: wrap;
+  }
+
+  .adminMessagesSend {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* ================================
+   Dark Mode Overrides
+================================ */
+body[data-theme="dark"] .adminMessagesPage {
+  background: #0b1020;
+  color: #e2e8f0;
+}
+
+body[data-theme="dark"] .adminMessagesBreadcrumbs {
+  color: #94a3b8;
+}
+
+body[data-theme="dark"] .adminMessagesBreadcrumbs strong {
+  color: #e2e8f0;
+}
+
+body[data-theme="dark"] .adminMessagesSearch {
+  background: #0b1220;
+  border-color: #1e293b;
+  color: #cbd5f5;
+}
+
+body[data-theme="dark"] .adminMessagesSearch input {
+  color: #e2e8f0;
+}
+
+body[data-theme="dark"] .adminMessagesBell {
+  background: #0b1220;
+  border-color: #1e293b;
+  color: #93c5fd;
+}
+
+body[data-theme="dark"] .adminMessagesListCard,
+body[data-theme="dark"] .adminMessagesChatCard {
+  background: #0f172a;
+  border-color: #1e293b;
+  color: #e2e8f0;
+}
+
+body[data-theme="dark"] .adminMessagesItem {
+  background: #0b1220;
+  border-color: transparent;
+}
+
+body[data-theme="dark"] .adminMessagesItem.is-active {
+  background: #111827;
+  border-color: #1e293b;
+}
+
+body[data-theme="dark"] .adminMessagesName {
+  color: #e2e8f0;
+}
+
+body[data-theme="dark"] .adminMessagesSnippet,
+body[data-theme="dark"] .adminMessagesMeta,
+body[data-theme="dark"] .adminMessagesStatus {
+  color: #94a3b8;
+}
+
+body[data-theme="dark"] .adminMessagesAvatar {
+  background: rgba(59, 130, 246, 0.2);
+  color: #93c5fd;
+}
+
+body[data-theme="dark"] .adminMessagesChatHeader {
+  border-bottom: 1px solid #1e293b;
+}
+
+body[data-theme="dark"] .adminMessagesIcon {
+  background: #0b1220;
+  border-color: #1e293b;
+  color: #93c5fd;
+}
+
+body[data-theme="dark"] .adminMessagesChatBody {
+  background: #0b1220;
+}
+
+body[data-theme="dark"] .adminMessagesBubbleText {
+  background: #0f172a;
+  border-color: #1e293b;
+  color: #e2e8f0;
+}
+
+body[data-theme="dark"] .adminMessagesBubble.is-outgoing .adminMessagesBubbleText {
+  background: #2563eb;
+  border-color: #1d4ed8;
+  color: #ffffff;
+}
+
+body[data-theme="dark"] .adminMessagesBubbleTime {
+  color: #94a3b8;
+}
+
+body[data-theme="dark"] .adminMessagesComposer {
+  border-top: 1px solid #1e293b;
+  background: #0f172a;
+}
+
+body[data-theme="dark"] .adminMessagesComposer input {
+  background: #0b1220;
+  color: #e2e8f0;
+  border: 1px solid #1e293b;
+}
+
+body[data-theme="dark"] .adminMessagesEmpty {
+  background: #0b1220;
+  color: #94a3b8;
+}

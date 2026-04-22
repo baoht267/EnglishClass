@@ -1,0 +1,767 @@
+.flashPage {
+  min-height: 100vh;
+  background:
+    radial-gradient(600px 320px at 14% 8%, rgba(37, 99, 235, 0.12), transparent 65%),
+    radial-gradient(520px 280px at 86% 12%, rgba(16, 185, 129, 0.12), transparent 55%),
+    radial-gradient(rgba(148, 163, 184, 0.35) 1px, transparent 1px);
+  background-size: auto, auto, 22px 22px;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.flashMain {
+  padding: 32px 0 80px;
+}
+
+.flashHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.flashHeader h1 {
+  margin: 0 0 6px;
+  font-size: clamp(28px, 3vw, 40px);
+  font-weight: 800;
+}
+
+.flashHeader p {
+  margin: 0;
+  color: #64748b;
+}
+
+.flashProgress {
+  min-width: 200px;
+  display: grid;
+  gap: 8px;
+  color: #475569;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.flashProgressBar {
+  height: 8px;
+  border-radius: 999px;
+  background: #e2e8f0;
+  overflow: hidden;
+}
+
+.flashProgressBar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #2563eb, #4f46e5);
+}
+
+.flashLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 24px;
+  align-items: start;
+}
+
+.flashStage {
+  display: grid;
+  gap: 18px;
+}
+
+.flashCardShell {
+  background: #ffffff;
+  border-radius: 24px;
+  border: 1px solid #e2e8f0;
+  padding: 16px;
+  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.08);
+  perspective: 1200px;
+  cursor: pointer;
+}
+
+.flashLoading,
+.flashEmpty {
+  min-height: 360px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #64748b;
+  cursor: default;
+}
+
+.flashComplete {
+  min-height: 360px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #0f172a;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+}
+
+.flashComplete h3 {
+  margin: 0 0 8px;
+  color: #15803d;
+  font-size: 20px;
+}
+
+.flashComplete p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.flashEmpty h3 {
+  margin: 0 0 6px;
+  color: #0f172a;
+}
+
+.flashCard {
+  position: relative;
+  width: 100%;
+  min-height: 360px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.flashCard.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.flashCardFace {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  border-radius: 18px;
+  background: #f8fafc;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 24px;
+}
+
+.flashCardFront h2 {
+  font-size: clamp(28px, 3vw, 40px);
+  margin: 14px 0 6px;
+}
+
+.flashCardFront p {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 16px;
+}
+
+.flashCardBack {
+  transform: rotateY(180deg);
+  background: #eef2ff;
+}
+
+.flashCardBack h3 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.flashCardBack p {
+  margin: 0;
+  color: #475569;
+  max-width: 420px;
+}
+
+.flashAudio {
+  font-size: 34px;
+  color: #2563eb;
+}
+
+.flashLevelTag {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #dcfce7;
+  color: #16a34a;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+.flashPosTag {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #e0e7ff;
+  color: #4338ca;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+.flashLevelTag--alt {
+  background: #fee2e2;
+  color: #ef4444;
+}
+
+.flashHint {
+  margin-top: 14px;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.flashControls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.flashGhostBtn {
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  color: #0f172a;
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.flashGhostBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.flashRatingRow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.flashRate {
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  padding: 14px 12px;
+  display: grid;
+  gap: 6px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.flashRate:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.flashRate small {
+  font-size: 11px;
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+.flashRate--again {
+  color: #ef4444;
+}
+
+.flashRate--hard {
+  color: #f97316;
+}
+
+.flashRate--good {
+  color: #2563eb;
+}
+
+.flashRate--easy {
+  color: #22c55e;
+}
+
+.flashAside {
+  display: grid;
+  gap: 20px;
+}
+
+.flashSideCard {
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #e2e8f0;
+  padding: 18px;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.06);
+  display: grid;
+  gap: 12px;
+}
+
+.flashSideHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.flashAiHeader {
+  justify-content: space-between;
+}
+
+.flashAiTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.flashAiCollapse {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.flashAiCollapse span {
+  font-size: 18px;
+}
+
+.flashAiCard.is-collapsed {
+  gap: 10px;
+}
+
+.flashSideHeader h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.flashSideHeader p {
+  margin: 2px 0 0;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.flashGoalRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #475569;
+}
+
+.flashGoalSuccess {
+  background: #dcfce7;
+  color: #15803d;
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.flashGoalStatus {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.flashGoalError {
+  font-size: 12px;
+  color: #b91c1c;
+}
+
+.flashGoalBar {
+  height: 6px;
+  border-radius: 999px;
+  background: #f1f5f9;
+  overflow: hidden;
+}
+
+.flashGoalBar span {
+  display: block;
+  height: 100%;
+  background: #f97316;
+}
+
+.flashGoalBar--green span {
+  background: #22c55e;
+}
+
+.flashUpcoming p {
+  margin: 6px 0 4px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+  font-weight: 700;
+}
+
+.flashPillRow {
+  display: flex;
+  gap: 8px;
+}
+
+.flashPill {
+  background: #eef2ff;
+  color: #4338ca;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.flashAiCard {
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.flashAiCard p {
+  margin: 0;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.flashAiMeta {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 600;
+}
+
+.flashAiBody {
+  display: grid;
+  gap: 10px;
+}
+
+.flashAiAnswer {
+  display: grid;
+  gap: 8px;
+}
+
+.flashAiStatus {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.flashAiError {
+  background: rgba(239, 68, 68, 0.18);
+  color: #fecaca;
+  border-radius: 10px;
+  padding: 8px 10px;
+  font-size: 12px;
+}
+
+.flashAiResponse {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #f8fafc;
+  white-space: pre-line;
+  max-height: 240px;
+  overflow: auto;
+}
+
+.flashAiBtn {
+  border: none;
+  background: #ffffff;
+  color: #0f172a;
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.flashTip p {
+  margin: 0;
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.flashError {
+  background: #fee2e2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+}
+
+.flashMeta {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #64748b;
+  text-transform: capitalize;
+}
+
+.flashFilterBtn {
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  color: #0f172a;
+  border-radius: 999px;
+  padding: 10px 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.flashFilterOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2100;
+  padding: 20px;
+}
+
+.flashFilterCard {
+  width: min(520px, 92vw);
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 26px 28px;
+  color: #0f172a;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.18);
+  border: 1px solid #e2e8f0;
+  display: grid;
+  gap: 16px;
+}
+
+.flashFilterCard h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.flashFilterCard p {
+  margin: 0;
+  color: #475569;
+  font-size: 14px;
+}
+
+.flashFilterFields {
+  display: grid;
+  gap: 14px;
+}
+
+.flashFilterFields label {
+  display: grid;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.flashFilterFields select {
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid #cbd5f5;
+  padding: 0 14px;
+  background: #ffffff;
+  font-weight: 600;
+  color: #0f172a;
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.08);
+}
+
+.flashFilterFields select:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.18);
+}
+
+.flashFilterActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.flashPrimaryBtn {
+  border: none;
+  background: #2563eb;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 10px 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.flashPrimaryBtn:hover {
+  background: #1d4ed8;
+}
+
+.flashGhostBtn {
+  color: #0f172a;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+@media (max-width: 1100px) {
+  .flashLayout {
+    grid-template-columns: 1fr;
+  }
+
+  .flashRatingRow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .flashMain {
+    padding: 24px 0 60px;
+  }
+
+  .flashCardShell {
+    padding: 12px;
+  }
+
+  .flashRatingRow {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ================================
+   Dark Mode Overrides
+================================ */
+body[data-theme="dark"] .flashPage {
+  background:
+    radial-gradient(600px 320px at 14% 8%, rgba(59, 130, 246, 0.16), transparent 65%),
+    radial-gradient(520px 280px at 86% 12%, rgba(16, 185, 129, 0.14), transparent 55%),
+    radial-gradient(rgba(148, 163, 184, 0.18) 1px, transparent 1px);
+  background-size: auto, auto, 22px 22px;
+  background-color: #0b1020;
+  color: #e2e8f0;
+}
+
+body[data-theme="dark"] .flashHeader p,
+body[data-theme="dark"] .flashProgress {
+  color: #94a3b8;
+}
+
+body[data-theme="dark"] .flashProgressBar {
+  background: #1f2937;
+}
+
+body[data-theme="dark"] .flashProgressBar span {
+  background: linear-gradient(90deg, #60a5fa, #818cf8);
+}
+
+body[data-theme="dark"] .flashCardShell {
+  background: #0f172a;
+  border-color: #1e293b;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.45);
+}
+
+body[data-theme="dark"] .flashCardFace {
+  background: #0b1220;
+  color: #e2e8f0;
+}
+
+body[data-theme="dark"] .flashCardBack {
+  background: #111827;
+}
+
+body[data-theme="dark"] .flashCardFront p {
+  color: #94a3b8;
+}
+
+body[data-theme="dark"] .flashHint,
+body[data-theme="dark"] .flashMeta {
+  color: #94a3b8;
+}
+
+body[data-theme="dark"] .flashAudio {
+  color: #60a5fa;
+}
+
+body[data-theme="dark"] .flashLevelTag {
+  background: rgba(34, 197, 94, 0.18);
+  color: #4ade80;
+}
+
+body[data-theme="dark"] .flashPosTag {
+  background: rgba(99, 102, 241, 0.22);
+  color: #c7d2fe;
+}
+
+body[data-theme="dark"] .flashLevelTag--alt {
+  background: rgba(239, 68, 68, 0.22);
+  color: #fca5a5;
+}
+
+body[data-theme="dark"] .flashGhostBtn,
+body[data-theme="dark"] .flashFilterBtn,
+body[data-theme="dark"] .flashRate {
+  background: #0b1220;
+  border-color: #1e293b;
+  color: #e2e8f0;
+}
+
+body[data-theme="dark"] .flashRate small {
+  color: #94a3b8;
+}
+
+body[data-theme="dark"] .flashSideCard {
+  background: #0f172a;
+  border-color: #1e293b;
+  color: #e2e8f0;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+}
+
+body[data-theme="dark"] .flashSideHeader p {
+  color: #94a3b8;
+}
+
+body[data-theme="dark"] .flashGoalRow {
+  color: #cbd5f5;
+}
+
+body[data-theme="dark"] .flashGoalBar {
+  background: #1f2937;
+}
+
+body[data-theme="dark"] .flashPill {
+  background: rgba(99, 102, 241, 0.25);
+  color: #c7d2fe;
+}
+
+body[data-theme="dark"] .flashTip p {
+  color: #94a3b8;
+}
+
+body[data-theme="dark"] .flashError {
+  background: rgba(239, 68, 68, 0.16);
+  border-color: rgba(239, 68, 68, 0.35);
+  color: #fca5a5;
+}
+
+body[data-theme="dark"] .flashComplete {
+  background: rgba(16, 185, 129, 0.12);
+  border-color: rgba(16, 185, 129, 0.3);
+  color: #e2e8f0;
+}
+
+body[data-theme="dark"] .flashComplete h3 {
+  color: #4ade80;
+}
+
+body[data-theme="dark"] .flashFilterOverlay {
+  background: rgba(15, 23, 42, 0.7);
+}
+
+body[data-theme="dark"] .flashFilterCard {
+  background: #0f172a;
+  border-color: #1e293b;
+  color: #e2e8f0;
+}
+
+body[data-theme="dark"] .flashFilterCard p {
+  color: #94a3b8;
+}
+
+body[data-theme="dark"] .flashFilterFields label {
+  color: #e2e8f0;
+}
+
+body[data-theme="dark"] .flashFilterFields select {
+  background: #0b1220;
+  border-color: #1e293b;
+  color: #e2e8f0;
+  box-shadow: none;
+}

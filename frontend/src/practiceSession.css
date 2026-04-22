@@ -1,0 +1,580 @@
+.practiceSessionPage {
+  min-height: 100vh;
+  background:
+    radial-gradient(600px 320px at 12% 12%, rgba(37, 99, 235, 0.12), transparent 65%),
+    radial-gradient(520px 280px at 88% 12%, rgba(14, 165, 233, 0.12), transparent 55%),
+    radial-gradient(rgba(148, 163, 184, 0.35) 1px, transparent 1px);
+  background-size: auto, auto, 22px 22px;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.sessionTopRight {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.sessionTimerBlock {
+  text-align: right;
+  font-size: 11px;
+  font-weight: 700;
+  color: #64748b;
+  letter-spacing: 0.08em;
+}
+
+.sessionTimerBlock strong {
+  display: block;
+  font-size: 16px;
+  color: #0f172a;
+  letter-spacing: 0.04em;
+}
+
+.sessionIconBtn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  color: #2563eb;
+}
+
+.sessionFinishBtn {
+  border: none;
+  background: #2563eb;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 10px 18px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 12px 22px rgba(37, 99, 235, 0.25);
+}
+
+.sessionFinishBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.sessionMain {
+  padding: 28px 0 80px;
+}
+
+.sessionLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 24px;
+  align-items: start;
+}
+
+.sessionMainCol {
+  display: grid;
+  gap: 20px;
+}
+
+.sessionCard {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 24px;
+  padding: 22px;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
+}
+
+.sessionQuestionCard {
+  display: grid;
+  gap: 20px;
+}
+
+.sessionQuestionHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.sessionQuestionBadge {
+  background: #e0e7ff;
+  color: #4338ca;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+.sessionQuestionTopic {
+  color: #64748b;
+  font-weight: 600;
+}
+
+.sessionFlagBtn {
+  margin-left: auto;
+  border: none;
+  background: transparent;
+  color: #2563eb;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.sessionQuestionText {
+  font-size: clamp(20px, 2.2vw, 28px);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.sessionOptions {
+  display: grid;
+  gap: 14px;
+}
+
+.sessionOption {
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #ffffff;
+  cursor: pointer;
+  transition: border 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+}
+
+.sessionOption input {
+  display: none;
+}
+
+.sessionOptionKey {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: #f1f5f9;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  color: #475569;
+}
+
+.sessionOption.is-selected {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.18);
+  transform: translateY(-1px);
+}
+
+.sessionOption.is-selected .sessionOptionKey {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.sessionFooter {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.sessionGhostBtn,
+.sessionPrimaryBtn {
+  border-radius: 14px;
+  padding: 12px 18px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.sessionGhostBtn {
+  background: #ffffff;
+  border-color: #e2e8f0;
+  color: #0f172a;
+}
+
+.sessionPrimaryBtn {
+  background: #2563eb;
+  color: #ffffff;
+  box-shadow: 0 12px 22px rgba(37, 99, 235, 0.25);
+}
+
+.sessionPrimaryBtn:disabled,
+.sessionGhostBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.sessionSkipBtn {
+  border: none;
+  background: transparent;
+  color: #64748b;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.sessionTutorCard {
+  border-radius: 22px;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: linear-gradient(135deg, #2563eb, #4338ca);
+  color: #ffffff;
+}
+
+.sessionTutorInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sessionTutorInfo h4 {
+  margin: 0 0 4px;
+  font-size: 16px;
+}
+
+.sessionTutorInfo p {
+  margin: 0;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.sessionTutorBtn {
+  border: none;
+  background: #ffffff;
+  color: #1d4ed8;
+  border-radius: 14px;
+  padding: 10px 14px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.sessionTutorPanel {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: min(360px, 92vw);
+  max-height: 70vh;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.2);
+  border: 1px solid #e2e8f0;
+  display: grid;
+  grid-template-rows: auto 1fr auto auto;
+  z-index: 2200;
+}
+
+.sessionTutorPanelHeader {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.sessionTutorPanelHeader h4 {
+  margin: 0 0 4px;
+  font-size: 15px;
+}
+
+.sessionTutorPanelHeader span {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.sessionTutorClose {
+  border: none;
+  background: transparent;
+  color: #64748b;
+  cursor: pointer;
+}
+
+.sessionTutorPanelBody {
+  padding: 14px 16px;
+  overflow: auto;
+  display: grid;
+  gap: 10px;
+}
+
+.sessionTutorBubble {
+  max-width: 85%;
+  padding: 10px 12px;
+  border-radius: 14px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.sessionTutorBubble--ai {
+  background: #f1f5f9;
+  color: #0f172a;
+  justify-self: flex-start;
+}
+
+.sessionTutorBubble--user {
+  background: #2563eb;
+  color: #ffffff;
+  justify-self: flex-end;
+}
+
+.sessionTutorError {
+  padding: 0 16px 8px;
+  color: #b91c1c;
+  font-size: 12px;
+}
+
+.sessionTutorPanelActions {
+  padding: 0 16px 10px;
+}
+
+.sessionTutorQuick {
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  color: #0f172a;
+  border-radius: 12px;
+  padding: 8px 12px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+}
+
+.sessionTutorPanelInput {
+  padding: 10px 16px 16px;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  gap: 10px;
+}
+
+.sessionTutorPanelInput input {
+  flex: 1;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.sessionTutorPanelInput button {
+  border: none;
+  background: #2563eb;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.sessionConfirmOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.45);
+  display: grid;
+  place-items: center;
+  z-index: 2300;
+  padding: 20px;
+}
+
+.sessionConfirmCard {
+  width: min(420px, 92vw);
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.2);
+}
+
+.sessionConfirmCard h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.sessionConfirmCard p {
+  margin: 0 0 16px;
+  color: #475569;
+  line-height: 1.5;
+}
+
+.sessionConfirmActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+@media (max-width: 720px) {
+  .sessionTutorPanel {
+    right: 12px;
+    left: 12px;
+    width: auto;
+  }
+}
+
+.sessionSidebar {
+  display: grid;
+  gap: 18px;
+}
+
+.sessionNavigatorCard h4,
+.sessionPerformanceCard h4,
+.sessionRuleCard h4 {
+  margin: 0 0 12px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+}
+
+.sessionNavGrid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.sessionNavBtn {
+  height: 38px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  font-weight: 700;
+  color: #94a3b8;
+  cursor: pointer;
+}
+
+.sessionNavBtn.is-answered {
+  background: #22c55e;
+  border-color: #22c55e;
+  color: #ffffff;
+}
+
+.sessionNavBtn.is-current {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #ffffff;
+}
+
+.sessionLegend {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #94a3b8;
+}
+
+.sessionLegendDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.sessionLegendDot.completed {
+  background: #22c55e;
+}
+
+.sessionLegendDot.current {
+  background: #2563eb;
+}
+
+.sessionLegendDot.pending {
+  background: #e2e8f0;
+}
+
+.sessionRing {
+  --percent: 0;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: conic-gradient(#2563eb calc(var(--percent) * 1%), #e2e8f0 0);
+  display: grid;
+  place-items: center;
+  margin: 8px auto 16px;
+  position: relative;
+}
+
+.sessionRing::after {
+  content: "";
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #ffffff;
+  position: absolute;
+}
+
+.sessionRingInner {
+  position: relative;
+  text-align: center;
+  font-weight: 800;
+  z-index: 1;
+}
+
+.sessionRingInner strong {
+  display: block;
+  font-size: 28px;
+}
+
+.sessionRingInner span {
+  font-size: 11px;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.sessionPerfMeta {
+  display: grid;
+  gap: 10px;
+  font-size: 13px;
+  color: #475569;
+}
+
+.sessionPerfMeta div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sessionRuleCard {
+  background: #eff6ff;
+}
+
+.sessionRuleHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #1d4ed8;
+  margin-bottom: 8px;
+}
+
+.sessionRuleCard p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.6;
+  font-size: 13px;
+}
+
+@media (max-width: 1100px) {
+  .sessionLayout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .sessionFooter {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .sessionSkipBtn {
+    margin-left: 0;
+  }
+
+  .sessionNavGrid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

@@ -1,0 +1,83 @@
+[{
+  "_id": {
+    "$oid": "698734e52dbbf5b20eb1aeea"
+  },
+  "senderId": {
+    "$oid": "69840d3bcfdf4efa66e89c3f"
+  },
+  "receiverId": {
+    "$oid": "6984050b43d608fbd1b6b805"
+  },
+  "content": "ngu vl",
+  "createdAt": {
+    "$date": "2026-02-07T12:49:41.789Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b7f38474f550fc2a45fb8"
+  },
+  "senderId": {
+    "$oid": "69840d3bcfdf4efa66e89c3f"
+  },
+  "receiverId": {
+    "$oid": "698b7c5c474f550fc2a45e34"
+  },
+  "content": "bạn cần làm bài chăm chỉ hơn",
+  "createdAt": {
+    "$date": "2026-02-10T18:55:52.430Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b83472075c7a6704b9a35"
+  },
+  "senderId": {
+    "$oid": "698b7c5c474f550fc2a45e34"
+  },
+  "receiverId": {
+    "$oid": "69840d3bcfdf4efa66e89c3f"
+  },
+  "content": "dạ",
+  "createdAt": {
+    "$date": "2026-02-10T19:13:11.026Z"
+  },
+  "__v": 0,
+  "readAt": {
+    "$date": "2026-02-11T06:03:55.247Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "698b84eefd730bfdbc2ed632"
+  },
+  "senderId": {
+    "$oid": "69840d3bcfdf4efa66e89c3f"
+  },
+  "receiverId": {
+    "$oid": "698b7c5c474f550fc2a45e34"
+  },
+  "content": "ok em",
+  "createdAt": {
+    "$date": "2026-02-10T19:20:14.023Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b84f3fd730bfdbc2ed63e"
+  },
+  "senderId": {
+    "$oid": "69840d3bcfdf4efa66e89c3f"
+  },
+  "receiverId": {
+    "$oid": "698b7c5c474f550fc2a45e34"
+  },
+  "content": "frjmfm",
+  "createdAt": {
+    "$date": "2026-02-10T19:20:19.124Z"
+  },
+  "__v": 0
+}]

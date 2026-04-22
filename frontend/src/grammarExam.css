@@ -1,0 +1,498 @@
+.grammarExamPage {
+  min-height: 100vh;
+  background:
+    radial-gradient(600px 320px at 12% 12%, rgba(37, 99, 235, 0.12), transparent 65%),
+    radial-gradient(520px 280px at 88% 12%, rgba(14, 165, 233, 0.12), transparent 55%),
+    radial-gradient(rgba(148, 163, 184, 0.35) 1px, transparent 1px);
+  background-size: auto, auto, 22px 22px;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.grammarExamMain {
+  padding: 32px 0 80px;
+}
+
+.grammarExamHero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  gap: 24px;
+  align-items: stretch;
+  margin-bottom: 24px;
+}
+
+.grammarExamBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #2563eb;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.grammarExamIntro h1 {
+  margin: 12px 0 8px;
+  font-size: clamp(30px, 3.2vw, 44px);
+  font-weight: 800;
+}
+
+.grammarExamIntro p {
+  margin: 0;
+  color: #64748b;
+  max-width: 560px;
+}
+
+.grammarExamStatsCard {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 24px;
+  padding: 20px;
+  display: grid;
+  gap: 16px;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
+}
+
+.grammarExamStatsLabel {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #94a3b8;
+}
+
+.grammarExamRing {
+  --percent: 0;
+  --ring-color: #ef4444;
+  margin: 16px auto 6px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: conic-gradient(var(--ring-color) calc(var(--percent) * 1%), #e2e8f0 0);
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.grammarExamRing::after {
+  content: "";
+  position: absolute;
+  width: calc(100% - 24px);
+  height: calc(100% - 24px);
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.grammarExamRingInner {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  font-weight: 800;
+  display: grid;
+  gap: 4px;
+}
+
+.grammarExamRingInner strong {
+  font-size: 28px;
+}
+
+.grammarExamRingInner span {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.grammarExamHint {
+  margin: 6px 0 0;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.grammarExamStatsMeta {
+  display: grid;
+  gap: 8px;
+  font-size: 12px;
+  color: #475569;
+}
+
+.grammarExamStatsMeta div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.grammarExamLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 24px;
+  align-items: start;
+}
+
+.grammarExamList {
+  display: grid;
+  gap: 18px;
+}
+
+.grammarExamPagination {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: #64748b;
+  font-size: 12px;
+}
+
+.grammarExamPager {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.grammarExamPageBtn {
+  min-width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  color: #475569;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.grammarExamPageBtn.is-active {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #ffffff;
+}
+
+.grammarExamPageBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.grammarExamCard {
+  background: #ffffff;
+  border-radius: 22px;
+  border: 1px solid #e2e8f0;
+  padding: 20px 22px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px;
+  align-items: center;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.06);
+}
+
+.grammarExamCardBody h3 {
+  margin: 10px 0 8px;
+  font-size: 22px;
+}
+
+.grammarExamCardBody p {
+  margin: 0 0 16px;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+.grammarExamCardTags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.grammarExamTag {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: #e2e8f0;
+  color: #475569;
+}
+
+.grammarExamTag--ghost {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.grammarExamTag--beginner {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.grammarExamTag--intermediate {
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+.grammarExamTag--advanced {
+  background: #ede9fe;
+  color: #6d28d9;
+}
+
+.grammarExamTag--neutral {
+  background: #f1f5f9;
+  color: #64748b;
+}
+
+.grammarExamMeta {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: #475569;
+}
+
+.grammarExamMeta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.grammarExamCardAction {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.grammarExamBtn {
+  background: #2563eb;
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 12px 18px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  box-shadow: 0 12px 22px rgba(37, 99, 235, 0.25);
+}
+
+.grammarExamSidebar {
+  display: grid;
+  gap: 18px;
+}
+
+.grammarExamSideCard,
+.grammarExamTip {
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  padding: 18px;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.06);
+  display: grid;
+  gap: 10px;
+}
+
+.grammarExamSideHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grammarExamSideCard h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.grammarExamSideCard p {
+  margin: 0;
+  color: #64748b;
+  line-height: 1.5;
+}
+
+.grammarExamSideMeta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #64748b;
+}
+
+.grammarExamSideBtn {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 10px 14px;
+  background: #ffffff;
+  color: #0f172a;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.grammarExamTip {
+  background: #eff6ff;
+}
+
+.grammarExamTipHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #1d4ed8;
+}
+
+.grammarExamTip p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.5;
+}
+
+.grammarExamLoading,
+.grammarExamEmpty {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  padding: 18px;
+  margin-bottom: 20px;
+  color: #64748b;
+}
+
+.grammarExamEmptyIcon {
+  font-size: 42px;
+  margin-bottom: 8px;
+}
+
+.grammarExamEmptyTitle {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 1100px) {
+  .grammarExamHero {
+    grid-template-columns: 1fr;
+  }
+
+  .grammarExamLayout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .grammarExamMain {
+    padding: 24px 0 60px;
+  }
+
+  .grammarExamCard {
+    grid-template-columns: 1fr;
+  }
+
+  .grammarExamCardAction {
+    justify-content: flex-start;
+  }
+
+  .grammarExamPagination {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* ================================
+   Dark Mode Overrides
+================================ */
+body[data-theme="dark"] .grammarExamPage {
+  background:
+    radial-gradient(600px 320px at 12% 12%, rgba(59, 130, 246, 0.18), transparent 65%),
+    radial-gradient(520px 280px at 88% 12%, rgba(14, 165, 233, 0.16), transparent 55%),
+    radial-gradient(rgba(148, 163, 184, 0.18) 1px, transparent 1px);
+  background-size: auto, auto, 22px 22px;
+  background-color: #0b1020;
+  color: #e2e8f0;
+}
+
+body[data-theme="dark"] .grammarExamIntro p,
+body[data-theme="dark"] .grammarExamRingInner span,
+body[data-theme="dark"] .grammarExamHint,
+body[data-theme="dark"] .grammarExamCardBody p,
+body[data-theme="dark"] .grammarExamSideCard p,
+body[data-theme="dark"] .grammarExamTip p {
+  color: #94a3b8;
+}
+
+body[data-theme="dark"] .grammarExamBadge {
+  background: rgba(59, 130, 246, 0.2);
+  color: #93c5fd;
+}
+
+body[data-theme="dark"] .grammarExamStatsCard,
+body[data-theme="dark"] .grammarExamCard,
+body[data-theme="dark"] .grammarExamSideCard,
+body[data-theme="dark"] .grammarExamTip,
+body[data-theme="dark"] .grammarExamLoading,
+body[data-theme="dark"] .grammarExamEmpty {
+  background: #0f172a;
+  border-color: #1e293b;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+  color: #e2e8f0;
+}
+
+body[data-theme="dark"] .grammarExamRing {
+  background: conic-gradient(var(--ring-color) calc(var(--percent) * 1%), #1f2937 0);
+}
+
+body[data-theme="dark"] .grammarExamRing::after {
+  background: #0b1220;
+}
+
+body[data-theme="dark"] .grammarExamStatsLabel,
+body[data-theme="dark"] .grammarExamStatsMeta,
+body[data-theme="dark"] .grammarExamMeta,
+body[data-theme="dark"] .grammarExamSideMeta,
+body[data-theme="dark"] .grammarExamPagination {
+  color: #cbd5f5;
+}
+
+body[data-theme="dark"] .grammarExamPageBtn {
+  background: #0b1220;
+  border-color: #1e293b;
+  color: #cbd5f5;
+}
+
+body[data-theme="dark"] .grammarExamTag {
+  background: #1f2937;
+  color: #cbd5f5;
+}
+
+body[data-theme="dark"] .grammarExamTag--ghost {
+  background: rgba(148, 163, 184, 0.18);
+  color: #cbd5f5;
+}
+
+body[data-theme="dark"] .grammarExamTag--beginner {
+  background: rgba(34, 197, 94, 0.2);
+  color: #4ade80;
+}
+
+body[data-theme="dark"] .grammarExamTag--intermediate {
+  background: rgba(59, 130, 246, 0.2);
+  color: #93c5fd;
+}
+
+body[data-theme="dark"] .grammarExamTag--advanced {
+  background: rgba(139, 92, 246, 0.2);
+  color: #c4b5fd;
+}
+
+body[data-theme="dark"] .grammarExamTag--neutral {
+  background: rgba(148, 163, 184, 0.18);
+  color: #cbd5f5;
+}
+
+body[data-theme="dark"] .grammarExamSideBtn {
+  background: #0b1220;
+  border-color: #1e293b;
+  color: #e2e8f0;
+}
+
+body[data-theme="dark"] .grammarExamTip {
+  background: rgba(59, 130, 246, 0.1);
+}
+
+body[data-theme="dark"] .grammarExamTipHeader {
+  color: #93c5fd;
+}

@@ -1,0 +1,619 @@
+[{
+  "_id": {
+    "$oid": "698b362a8f416c1763b937be"
+  },
+  "word": "pollution",
+  "meaning": "sự ô nhiễm/ quá trình ô nhiễm",
+  "phonetic": "/pəˈluː.ʃən/",
+  "example": "",
+  "level": "Intermediate",
+  "topic": "Sport",
+  "status": "published",
+  "createdBy": {
+    "$oid": "69840d3bcfdf4efa66e89c3f"
+  },
+  "createdAt": {
+    "$date": "2026-02-10T13:44:10.253Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cac"
+  },
+  "word": "athlete",
+  "meaning": "vận động viên",
+  "phonetic": "/ˈæθ.liːt/",
+  "example": "She is a professional athlete.",
+  "level": "Beginner",
+  "topic": "Sport",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cad"
+  },
+  "word": "tournament",
+  "meaning": "giải đấu",
+  "phonetic": "/ˈtʊə.nə.mənt/",
+  "example": "The tournament starts tomorrow.",
+  "level": "Intermediate",
+  "topic": "Sport",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cae"
+  },
+  "word": "coach",
+  "meaning": "huấn luyện viên",
+  "phonetic": "/kəʊtʃ/",
+  "example": "The coach trained the team.",
+  "level": "Beginner",
+  "topic": "Sport",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5caf"
+  },
+  "word": "match",
+  "meaning": "trận đấu",
+  "phonetic": "/mætʃ/",
+  "example": "The match was exciting.",
+  "level": "Beginner",
+  "topic": "Sport",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cb0"
+  },
+  "word": "score",
+  "meaning": "tỉ số",
+  "phonetic": "/skɔːr/",
+  "example": "The final score was 2-1.",
+  "level": "Beginner",
+  "topic": "Sport",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cb1"
+  },
+  "word": "stadium",
+  "meaning": "sân vận động",
+  "phonetic": "/ˈsteɪ.di.əm/",
+  "example": "The stadium is very large.",
+  "level": "Beginner",
+  "topic": "Sport",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cb2"
+  },
+  "word": "referee",
+  "meaning": "trọng tài",
+  "phonetic": "/ˌref.əˈriː/",
+  "example": "The referee stopped the match.",
+  "level": "Intermediate",
+  "topic": "Sport",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cb3"
+  },
+  "word": "training",
+  "meaning": "huấn luyện",
+  "phonetic": "/ˈtreɪ.nɪŋ/",
+  "example": "Training is held daily.",
+  "level": "Beginner",
+  "topic": "Sport",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cb4"
+  },
+  "word": "victory",
+  "meaning": "chiến thắng",
+  "phonetic": "/ˈvɪk.tər.i/",
+  "example": "The team celebrated victory.",
+  "level": "Intermediate",
+  "topic": "Sport",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cb5"
+  },
+  "word": "defeat",
+  "meaning": "thất bại",
+  "phonetic": "/dɪˈfiːt/",
+  "example": "They accepted defeat.",
+  "level": "Intermediate",
+  "topic": "Sport",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cb6"
+  },
+  "word": "exercise",
+  "meaning": "tập thể dục",
+  "phonetic": "/ˈek.sə.saɪz/",
+  "example": "Exercise keeps you healthy.",
+  "level": "Beginner",
+  "topic": "Health",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cb7"
+  },
+  "word": "nutrition",
+  "meaning": "dinh dưỡng",
+  "phonetic": "/njuːˈtrɪʃ.ən/",
+  "example": "Nutrition affects health.",
+  "level": "Intermediate",
+  "topic": "Health",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cb8"
+  },
+  "word": "doctor",
+  "meaning": "bác sĩ",
+  "phonetic": "/ˈdɒk.tər/",
+  "example": "The doctor gave advice.",
+  "level": "Beginner",
+  "topic": "Health",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cb9"
+  },
+  "word": "medicine",
+  "meaning": "thuốc",
+  "phonetic": "/ˈmed.ɪ.sɪn/",
+  "example": "Take the medicine daily.",
+  "level": "Beginner",
+  "topic": "Health",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cba"
+  },
+  "word": "hospital",
+  "meaning": "bệnh viện",
+  "phonetic": "/ˈhɒs.pɪ.təl/",
+  "example": "He went to the hospital.",
+  "level": "Beginner",
+  "topic": "Health",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cbb"
+  },
+  "word": "disease",
+  "meaning": "bệnh tật",
+  "phonetic": "/dɪˈziːz/",
+  "example": "The disease spreads fast.",
+  "level": "Intermediate",
+  "topic": "Health",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cbc"
+  },
+  "word": "mental health",
+  "meaning": "sức khỏe tinh thần",
+  "phonetic": "/ˈmen.təl helθ/",
+  "example": "Mental health matters.",
+  "level": "Intermediate",
+  "topic": "Health",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cbd"
+  },
+  "word": "diet",
+  "meaning": "chế độ ăn",
+  "phonetic": "/ˈdaɪ.ət/",
+  "example": "She follows a healthy diet.",
+  "level": "Beginner",
+  "topic": "Health",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cbe"
+  },
+  "word": "symptom",
+  "meaning": "triệu chứng",
+  "phonetic": "/ˈsɪmp.təm/",
+  "example": "Fever is a symptom.",
+  "level": "Intermediate",
+  "topic": "Health",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cbf"
+  },
+  "word": "recovery",
+  "meaning": "hồi phục",
+  "phonetic": "/rɪˈkʌv.ər.i/",
+  "example": "Recovery takes time.",
+  "level": "Intermediate",
+  "topic": "Health",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cc0"
+  },
+  "word": "environment",
+  "meaning": "môi trường",
+  "phonetic": "/ɪnˈvaɪ.rən.mənt/",
+  "example": "Protect the environment.",
+  "level": "Beginner",
+  "topic": "Environment",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cc1"
+  },
+  "word": "pollution",
+  "meaning": "ô nhiễm",
+  "phonetic": "/pəˈluː.ʃən/",
+  "example": "Air pollution is serious.",
+  "level": "Intermediate",
+  "topic": "Environment",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cc2"
+  },
+  "word": "recycle",
+  "meaning": "tái chế",
+  "phonetic": "/ˌriːˈsaɪ.kəl/",
+  "example": "Recycle plastic waste.",
+  "level": "Beginner",
+  "topic": "Environment",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cc3"
+  },
+  "word": "forest",
+  "meaning": "rừng",
+  "phonetic": "/ˈfɒr.ɪst/",
+  "example": "Forests absorb CO2.",
+  "level": "Beginner",
+  "topic": "Environment",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cc4"
+  },
+  "word": "climate",
+  "meaning": "khí hậu",
+  "phonetic": "/ˈklaɪ.mət/",
+  "example": "Climate is changing.",
+  "level": "Intermediate",
+  "topic": "Environment",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cc5"
+  },
+  "word": "global warming",
+  "meaning": "nóng lên toàn cầu",
+  "phonetic": "/ˌɡləʊ.bəl ˈwɔː.mɪŋ/",
+  "example": "Global warming affects Earth.",
+  "level": "Intermediate",
+  "topic": "Environment",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cc6"
+  },
+  "word": "wildlife",
+  "meaning": "động vật hoang dã",
+  "phonetic": "/ˈwaɪld.laɪf/",
+  "example": "Wildlife is endangered.",
+  "level": "Beginner",
+  "topic": "Environment",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cc7"
+  },
+  "word": "ecosystem",
+  "meaning": "hệ sinh thái",
+  "phonetic": "/ˈiː.kəʊˌsɪs.təm/",
+  "example": "Ecosystems are fragile.",
+  "level": "Intermediate",
+  "topic": "Environment",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cc8"
+  },
+  "word": "energy",
+  "meaning": "năng lượng",
+  "phonetic": "/ˈen.ə.dʒi/",
+  "example": "Solar energy is clean.",
+  "level": "Beginner",
+  "topic": "Environment",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cc9"
+  },
+  "word": "waste",
+  "meaning": "rác thải",
+  "phonetic": "/weɪst/",
+  "example": "Reduce waste daily.",
+  "level": "Beginner",
+  "topic": "Environment",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cca"
+  },
+  "word": "technology",
+  "meaning": "công nghệ",
+  "phonetic": "/tekˈnɒl.ə.dʒi/",
+  "example": "Technology evolves fast.",
+  "level": "Beginner",
+  "topic": "Technology",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5ccb"
+  },
+  "word": "software",
+  "meaning": "phần mềm",
+  "phonetic": "/ˈsɒft.weər/",
+  "example": "The software updated.",
+  "level": "Beginner",
+  "topic": "Technology",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5ccc"
+  },
+  "word": "hardware",
+  "meaning": "phần cứng",
+  "phonetic": "/ˈhɑːd.weər/",
+  "example": "Hardware costs more.",
+  "level": "Beginner",
+  "topic": "Technology",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5ccd"
+  },
+  "word": "internet",
+  "meaning": "internet",
+  "phonetic": "/ˈɪn.tə.net/",
+  "example": "Internet connects people.",
+  "level": "Beginner",
+  "topic": "Technology",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cce"
+  },
+  "word": "database",
+  "meaning": "cơ sở dữ liệu",
+  "phonetic": "/ˈdeɪ.tə.beɪs/",
+  "example": "Data is in the database.",
+  "level": "Beginner",
+  "topic": "Technology",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5ccf"
+  },
+  "word": "AI",
+  "meaning": "trí tuệ nhân tạo",
+  "phonetic": "/ˌeɪˈaɪ/",
+  "example": "AI is powerful.",
+  "level": "Intermediate",
+  "topic": "Technology",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cd0"
+  },
+  "word": "robot",
+  "meaning": "rô-bốt",
+  "phonetic": "/ˈrəʊ.bɒt/",
+  "example": "Robots help humans.",
+  "level": "Beginner",
+  "topic": "Technology",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cd1"
+  },
+  "word": "network",
+  "meaning": "mạng lưới",
+  "phonetic": "/ˈnet.wɜːk/",
+  "example": "The network is secure.",
+  "level": "Intermediate",
+  "topic": "Technology",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cd2"
+  },
+  "word": "security",
+  "meaning": "bảo mật",
+  "phonetic": "/sɪˈkjʊə.rɪ.ti/",
+  "example": "Security is essential.",
+  "level": "Intermediate",
+  "topic": "Technology",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cd3"
+  },
+  "word": "innovation",
+  "meaning": "đổi mới",
+  "phonetic": "/ˌɪn.əˈveɪ.ʃən/",
+  "example": "Innovation drives growth.",
+  "level": "Intermediate",
+  "topic": "Technology",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cd4"
+  },
+  "word": "education",
+  "meaning": "giáo dục",
+  "phonetic": "/ˌedʒ.uˈkeɪ.ʃən/",
+  "example": "Education changes lives.",
+  "level": "Beginner",
+  "topic": "Education",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cd5"
+  },
+  "word": "student",
+  "meaning": "học sinh",
+  "phonetic": "/ˈstjuː.dənt/",
+  "example": "The student studies hard.",
+  "level": "Beginner",
+  "topic": "Education",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cd6"
+  },
+  "word": "teacher",
+  "meaning": "giáo viên",
+  "phonetic": "/ˈtiː.tʃər/",
+  "example": "The teacher explains well.",
+  "level": "Beginner",
+  "topic": "Education",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cd7"
+  },
+  "word": "lesson",
+  "meaning": "bài học",
+  "phonetic": "/ˈles.ən/",
+  "example": "Today's lesson is easy.",
+  "level": "Beginner",
+  "topic": "Education",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cd8"
+  },
+  "word": "exam",
+  "meaning": "kỳ thi",
+  "phonetic": "/ɪɡˈzæm/",
+  "example": "The exam is difficult.",
+  "level": "Beginner",
+  "topic": "Education",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cd9"
+  },
+  "word": "subject",
+  "meaning": "môn học",
+  "phonetic": "/ˈsʌb.dʒɪkt/",
+  "example": "Math is my favorite subject.",
+  "level": "Beginner",
+  "topic": "Education",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cda"
+  },
+  "word": "knowledge",
+  "meaning": "kiến thức",
+  "phonetic": "/ˈnɒl.ɪdʒ/",
+  "example": "Knowledge is power.",
+  "level": "Beginner",
+  "topic": "Education",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cdb"
+  },
+  "word": "curriculum",
+  "meaning": "chương trình học",
+  "phonetic": "/kəˈrɪk.jə.ləm/",
+  "example": "The curriculum changed.",
+  "level": "Intermediate",
+  "topic": "Education",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cdc"
+  },
+  "word": "degree",
+  "meaning": "bằng cấp",
+  "phonetic": "/dɪˈɡriː/",
+  "example": "She earned a degree.",
+  "level": "Intermediate",
+  "topic": "Education",
+  "status": "published"
+},
+{
+  "_id": {
+    "$oid": "698b390432a1df4a0f2c5cdd"
+  },
+  "word": "graduate",
+  "meaning": "tốt nghiệp",
+  "phonetic": "/ˈɡrædʒ.u.eɪt/",
+  "example": "He will graduate soon.",
+  "level": "Intermediate",
+  "topic": "Education",
+  "status": "published"
+}]

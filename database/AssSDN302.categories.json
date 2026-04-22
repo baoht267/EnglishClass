@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "69836099d9ad545923a33ae7"
+  },
+  "name": "Grammar",
+  "slug": "grammar",
+  "description": "Ngữ pháp",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-02-04T15:07:05.479Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-04T15:07:05.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69836099d9ad545923a33ae8"
+  },
+  "name": "Vocabulary",
+  "slug": "vocabulary",
+  "description": "Từ vựng",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-02-04T15:07:05.479Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-04T15:07:05.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69836099d9ad545923a33ae9"
+  },
+  "name": "Reading",
+  "slug": "reading",
+  "description": "Đọc hiểu",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-02-04T15:07:05.479Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-04T15:07:05.479Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "698874b34bcdfd109d4e8ec9"
+  },
+  "name": "Listening",
+  "slug": "listening",
+  "description": "Nghe",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-02-04T15:07:05.479Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-04T15:07:05.479Z"
+  }
+}]

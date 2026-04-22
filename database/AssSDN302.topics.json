@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "698b34b87a7195684a32ab46"
+  },
+  "name": "Education",
+  "slug": "education",
+  "createdAt": {
+    "$date": "2026-02-10T13:38:00.309Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b34fb7a7195684a32ab74"
+  },
+  "name": "Technology",
+  "slug": "technology",
+  "createdAt": {
+    "$date": "2026-02-10T13:39:07.028Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b352a8f416c1763b9379c"
+  },
+  "name": "Environment",
+  "slug": "environment",
+  "createdAt": {
+    "$date": "2026-02-10T13:39:54.705Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b355a8f416c1763b937a2"
+  },
+  "name": "Health",
+  "slug": "health",
+  "createdAt": {
+    "$date": "2026-02-10T13:40:42.174Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b35ad8f416c1763b937ae"
+  },
+  "name": "Sport",
+  "slug": "sport",
+  "createdAt": {
+    "$date": "2026-02-10T13:42:05.103Z"
+  },
+  "__v": 0
+}]

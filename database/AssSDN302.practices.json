@@ -1,0 +1,471 @@
+[{
+  "_id": {
+    "$oid": "698c3d1c3139dfe7e3e9212d"
+  },
+  "examId": 4,
+  "title": "Practice Present Simple",
+  "description": "",
+  "status": "published",
+  "publishedAt": {
+    "$date": "2026-02-11T08:26:04.675Z"
+  },
+  "timeLimit": 20,
+  "passMark": 50,
+  "categoryId": {
+    "$oid": "69836099d9ad545923a33ae7"
+  },
+  "levelId": null,
+  "audioUrl": "",
+  "audioName": "",
+  "questions": [
+    {
+      "$oid": "698c32feb0f09565553d6a36"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a37"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a38"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a39"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a3a"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a3b"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a3c"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a3d"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a3e"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a3f"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a40"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a41"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a42"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a43"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a44"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a45"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a46"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a47"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a34"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a35"
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-02-11T08:26:04.676Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698c3d6e3139dfe7e3e9213e"
+  },
+  "examId": 5,
+  "title": "Practice Present Continuous",
+  "description": "",
+  "status": "published",
+  "publishedAt": {
+    "$date": "2026-02-11T08:27:26.909Z"
+  },
+  "timeLimit": 20,
+  "passMark": 50,
+  "categoryId": {
+    "$oid": "69836099d9ad545923a33ae7"
+  },
+  "levelId": null,
+  "audioUrl": "",
+  "audioName": "",
+  "questions": [
+    {
+      "$oid": "698c32feb0f09565553d6a48"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a49"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a4a"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a4b"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a4c"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a4d"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a4e"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a4f"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a50"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a51"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a52"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a53"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a54"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a55"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a56"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a57"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a58"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a59"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a5a"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a5b"
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-02-11T08:27:26.910Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698c3dab3139dfe7e3e9214f"
+  },
+  "examId": 6,
+  "title": "Practice Past Simple",
+  "description": "",
+  "status": "published",
+  "publishedAt": {
+    "$date": "2026-02-11T08:28:27.361Z"
+  },
+  "timeLimit": 20,
+  "passMark": 50,
+  "categoryId": {
+    "$oid": "69836099d9ad545923a33ae7"
+  },
+  "levelId": null,
+  "audioUrl": "",
+  "audioName": "",
+  "questions": [
+    {
+      "$oid": "698c32feb0f09565553d6a5c"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a5d"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a5e"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a5f"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a60"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a61"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a62"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a63"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a64"
+    },
+    {
+      "$oid": "698c32feb0f09565553d6a65"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6a9e"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6a9f"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aa0"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aa1"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aa2"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aa3"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aa4"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aa5"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aa6"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aa7"
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-02-11T08:28:27.362Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698c3e473139dfe7e3e92160"
+  },
+  "examId": 7,
+  "title": "Practice Articles",
+  "description": "",
+  "status": "published",
+  "publishedAt": {
+    "$date": "2026-02-11T08:31:03.526Z"
+  },
+  "timeLimit": 20,
+  "passMark": 50,
+  "categoryId": {
+    "$oid": "69836099d9ad545923a33ae7"
+  },
+  "levelId": null,
+  "audioUrl": "",
+  "audioName": "",
+  "questions": [
+    {
+      "$oid": "698c3573b0f09565553d6aa8"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aa9"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aaa"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aab"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aac"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aad"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aae"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aaf"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ab0"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ab1"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ab2"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ab3"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ab4"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ab5"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ab6"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ab7"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ab8"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ab9"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aba"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6abb"
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-02-11T08:31:03.526Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698c3e933139dfe7e3e92171"
+  },
+  "examId": 8,
+  "title": "Practice Prepositions",
+  "description": "",
+  "status": "published",
+  "publishedAt": {
+    "$date": "2026-02-11T08:32:19.460Z"
+  },
+  "timeLimit": 20,
+  "passMark": 50,
+  "categoryId": {
+    "$oid": "69836099d9ad545923a33ae7"
+  },
+  "levelId": null,
+  "audioUrl": "",
+  "audioName": "",
+  "questions": [
+    {
+      "$oid": "698c3573b0f09565553d6abc"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6abd"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6abe"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6abf"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ac0"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ac1"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ac2"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ac3"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ac4"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ac5"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ac6"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ac7"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ac8"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ac9"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6aca"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6acb"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6acc"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6acd"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6ace"
+    },
+    {
+      "$oid": "698c3573b0f09565553d6acf"
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-02-11T08:32:19.460Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698c45133139dfe7e3e92375"
+  },
+  "examId": 9,
+  "title": "Listening Test",
+  "description": "",
+  "status": "published",
+  "publishedAt": {
+    "$date": "2026-02-11T09:00:03.615Z"
+  },
+  "timeLimit": 10,
+  "passMark": 60,
+  "categoryId": {
+    "$oid": "698874b34bcdfd109d4e8ec9"
+  },
+  "levelId": null,
+  "audioUrl": "/uploads/audio/ElevenLabs_2026-02-11T08_54_02_R-1770802141074.mp3",
+  "audioName": "ElevenLabs_2026-02-11T08_54_02_Rachel_pre_sp100_s50_sb75_se0_b_m2.mp3",
+  "questions": [
+    {
+      "$oid": "698c44cb3f2d4309f0387fee"
+    },
+    {
+      "$oid": "698c44cb3f2d4309f0387fed"
+    },
+    {
+      "$oid": "698c44cb3f2d4309f0387fec"
+    },
+    {
+      "$oid": "698c44cb3f2d4309f0387feb"
+    },
+    {
+      "$oid": "698c44cb3f2d4309f0387fea"
+    }
+  ],
+  "createdAt": {
+    "$date": "2026-02-11T09:00:03.616Z"
+  },
+  "__v": 0
+}]
